@@ -1,0 +1,23 @@
+id = "io.buildpacks.stacks.ubi10"
+homepage = "https://github.com/paketo-buildpacks/ubi-10-base-images"
+maintainer = "Paketo Buildpacks"
+
+platforms = ["linux/amd64", "linux/arm64", "linux/ppc64le", "linux/s390x"]
+
+[build]
+  description = "base build ubi10 image to support buildpacks"
+  dockerfile = "../stack/build.Dockerfile"
+  gid = 1000
+  shell = "/bin/bash"
+  uid = 1002
+
+  [build.args]
+
+[run]
+  description = "ubi10 nodejs-22 image to support buildpacks"
+  dockerfile = "./run.Dockerfile"
+  gid = 1000
+  shell = "/bin/bash"
+  uid = 1001
+
+  [run.args]

@@ -1,0 +1,1 @@
+FROM registry.access.redhat.com/ubi10/nodejs-24-minimal
