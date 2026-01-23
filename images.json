@@ -2,7 +2,8 @@
   "support_usns": false,
   "receipts_show_limit": 16,
   "platforms": ["linux/amd64", "linux/arm64", "linux/ppc64le", "linux/s390x"],
-  "os_codename": "ubi10",
+  "os_name": "ubi",
+  "os_codename": "10",
   "repo_type": "stack",
   "images": [
     {
