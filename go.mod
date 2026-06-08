@@ -1,6 +1,6 @@
 module github.com/paketo-buildpacks/ubi-10-base-images
 
-go 1.26.3
+go 1.26.4
 
 require (
 	github.com/google/go-containerregistry v0.20.2
